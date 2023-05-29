@@ -1,0 +1,51 @@
+@media(max-width: 950px) {
+    .newsletter_container {
+        padding: 0;
+        flex-direction: column-reverse;
+        img {
+            display: block;
+            width: 100%;
+        }
+        h1 {
+            margin: .625rem 0 0;
+            font-size: 2.5rem;
+        }
+        div {
+            padding: 1.5625rem;
+        }
+        p {
+            margin: 1.25rem 0 0;
+        }
+        .list_item {
+            line-height: 1.5;
+            align-items: flex-start;
+        }
+    }
+
+    .success_container {
+        width: 23.4375rem;
+        padding: 9.375rem 1.25rem 1.25rem;
+        h2 {
+            font-size: 2.5rem;
+        }
+        p {
+            margin: 1.5625rem 0 0;
+            line-height: 1.5;
+        }
+        .dismiss_btn {
+            margin: 16.375rem 0 1.25rem;
+        }
+    }
+
+    .newsletter_container,
+    .success_container {
+        width: 23.4375rem;
+        border-radius: 0;
+    }
+
+    .newsletter_form {
+        .submit_btn {
+            margin: 1.5625rem 0 .625rem;
+        }
+    }
+}

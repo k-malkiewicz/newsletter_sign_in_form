@@ -1,0 +1,4 @@
+.DS_Store
+.prettierignore
+.sass-cache/
+*.css.map

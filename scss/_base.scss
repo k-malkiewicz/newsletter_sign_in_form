@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: $bg-body;
+    font-family: $font-stack;
+    display: grid;
+    place-items: center;
+}
+
+p {
+    font-size: 1rem;
+}
+
+button,
+input {
+    border: none;
+    font-family: $font-stack;
+    cursor: pointer;
+}
+
+section {
+    background: $bg-sections;
+}
+
+.submit_btn,
+.dismiss_btn {
+    width: 100%;
+    background: $bg-buttons;
+    color: #fff;
+    margin: 2.5rem 0 .9375rem;
+    padding: 1.1875rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: .5rem;
+    &:hover {
+        background: $bg-buttons-hover;
+        box-shadow: 0 0 1.25rem #ff6257;
+    }
+}
+
+.newsletter_container {
+    width: 58rem;
+    color: $color-primary;
+    padding: 1.5625rem;
+    border-radius: 2.1875rem;
+    display: flex;
+        div {
+            padding: 0 3.75rem 0 2.5rem;
+        }
+        h1 {
+            margin: 4.0625rem 0 1.25rem;
+            font-size: 3.5rem;
+        }
+        p {
+            line-height: 1.4;
+        }
+        .list {
+            margin: 1.625rem 0 0;
+            padding: 0;
+            list-style: none;
+            &_item {
+                margin: 0 0 .625rem;
+                display: flex;
+                align-items: center;
+                gap: 1.0625rem;
+                &::before {
+                    content: url('../img/icon-list.svg');
+                }
+            }
+        }
+}
+
+.newsletter_form {
+    margin: 2.5rem 0 0;
+    position: relative;
+    label {
+        display: block;
+        margin: 0 0 .625rem;
+        font-size: .75rem;
+        font-weight: 700;
+    }
+    .error {
+        color: #ff6257;
+        font-weight: 700;
+        font-size: .75rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .email_input {
+        width: 100%;
+        border: .125rem solid #666;
+        border-radius: .5rem;
+        padding: 1.0625rem 1.0625rem 1.0625rem 1.4375rem;
+        font-size: 1rem;
+        &.form_error {
+            border-color: #ff6257;
+            background: hsla(4, 100%, 67%, 20%);
+            color: #ff6257;
+            &::placeholder {
+                color: #ff6257;
+            }
+        }
+    }
+    .submit_btn {
+        margin: 1.4375rem 0 0;
+    }
+}
+
+img {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.success_container {
+    width: 31.5625rem;
+    border-radius: 2.1875rem;
+    padding: 3.125rem 4.0625rem;
+    h2 {
+        margin: 2.1875rem 0 0;
+        font-size: 3.4375rem;
+        line-height: 1;
+    }
+    p {
+        line-height: 1.4;
+        margin: 1.875rem 0 0;
+        span {
+            font-weight: 700;
+        }
+    }
+}
