@@ -8,9 +8,11 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ## Links
 
+- Live Site Url: (https://newsletter-signup-form-km9.netlify.app/)
+
 ## Features
 
-- Simple newsletter sign-in form with success message
+- Simple newsletter sign-up form with success message
 - Enter email address into the form, after submitting the form, email will be checked
 - If the email address is correct, a success message will be displayed
 - If the email address is incorrect, an error message will be displayed in the form
