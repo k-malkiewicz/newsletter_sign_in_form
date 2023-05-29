@@ -95,7 +95,7 @@ section {
 }
 .newsletter_form .email_input {
   width: 100%;
-  border: 0.125rem solid #666;
+  border: 0.125rem solid #eee;
   border-radius: 0.5rem;
   padding: 1.0625rem 1.0625rem 1.0625rem 1.4375rem;
   font-size: 1rem;
